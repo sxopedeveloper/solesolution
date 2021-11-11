@@ -1,0 +1,5 @@
+{
+    "require": {
+        "double-break/spapi-php": "^1.0"
+    }
+}

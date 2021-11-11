@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Sole Solution:: Amazonorder</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/images/logo/favicon.png" />
+        <!-- style css -->
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <!-- Core css -->
+        <link href="assets/css/datepicker.css" rel="stylesheet" />
+        <link href="assets/css/custom.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    </head>
+
+    <body>
+        <div class="app">
+            <div class="layout">
+             <!-- Header START -->
+             <div class="header">
+                <div class="logo logo-dark">
+                    <a href="index.html">
+                        <img src="assets/images/logo/logo.png" alt="Logo"  class="logo-inner">
+                        <img class="logo-fold" src="assets/images/logo/logo-fold.png" alt="Logo">
+                    </a>
+                </div>
+                <div class="side-nav">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu">
+                        <li class="nav-item desktop-toggle">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="far fa-envelope"></i>
+                                </span>
+                                <span class="title">Mailbox</span>
+                                
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="anticon anticon-dashboard"></i>
+                                </span>
+                                <span class="title">Stats</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="fas fa-gem"></i>
+                                </span>
+                                <span class="title">Inventory</span>
+                                <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" data-toggle="modal" data-target=".add-product-modal">Add Product</a>
+                                </li>
+                                <li>
+                                    <a href="view-products.html">View Products</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="fab fa-first-order"></i>
+                                </span>
+                                <span class="title">Orders</span>
+                                <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Amazon Orders</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="fas fa-cog"></i>
+                                </span>
+                                <span class="title">Account Settings</span>
+                                <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#"> Integrations </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle" href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="far fa-store"></i>
+                                </span>
+                                <span class="title">Store</span>
+                                <span class="arrow">
+                                    <i class="arrow-icon"></i>
+                                </span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle" href="team-leader.html">
+                                    <span class="title">PsykeKandi</span>
+                                    <span class="arrow">
+                                        <i class="far fa-chevron-left"></i>
+                                    </span>
+                                </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Roel</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle" href="team-leader.html">
+                                    <span class="title">Tatalo Wholesale</span>
+                                    <span class="arrow">
+                                        <i class="far fa-chevron-left"></i>
+                                    </span>
+                                </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Amber</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle" href="team-leader.html">
+                                    <span class="title">SunshineBiz</span>
+                                    <span class="arrow">
+                                        <i class="far fa-chevron-left"></i>
+                                    </span>
+                                </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Christian</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <li class="nav-item dropdown">
+                                    <a class="dropdown-toggle" href="team-leader.html">
+                                    <span class="title">Baullah</span>
+                                    <span class="arrow">
+                                        <i class="far fa-chevron-left"></i>
+                                    </span>
+                                </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Ahye</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="side-nav-mainbox">
+                <div class="side-nav-inner">
+                    <ul class="side-nav-menu">
+                        <li class="nav-item desktop-toggle">
+                            <a href="mailbox.html">
+                                <span class="icon-holder">
+                                    <i class="far fa-home"></i>
+                                </span>
+                                <span class="title">Home</span>
+                                
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="fas fa-user"></i>
+                                </span>
+                                <span class="title">My Ticket</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="fal fa-at"></i>
+                                    <p>1</p>
+                                </span>
+                                <span class="title">Mentioned</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="far fa-envelope"></i>
+                                    <p>205</p>
+                                </span>
+                                <span class="title">New Tickets</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="fas fa-list-ul"></i>
+                                    <p>205</p>
+
+                                </span>
+                                <span class="title">To Do</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="anticon anticon-dashboard"></i>
+                                </span>
+                                <span class="title">Waiting</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="far fa-alarm-snooze"></i>
+                                </span>
+                                <span class="title">Snoozed</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="fal fa-check-square"></i>
+                                </span>
+                                <span class="title">Resolved</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                    <i class="far fa-history"></i>
+                                </span>
+                                <span class="title">Recently Update</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);">
+                                <span class="icon-holder">
+                                   <i class="fas fa-pencil-alt"></i>
+                                </span>
+                                <span class="title">Create ticket</span>
+                            </a>
+                        </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <div class="nav-wrap">
+                    <ul class="nav-left">
+                        <!-- <li class="desktop-toggle">
+                            <a href="javascript:void(0);">
+                                <i class="anticon"></i>
+                            </a>
+                        </li> -->
+                        <li class="mobile-toggle">
+                            <a href="javascript:void(0);">
+                                <i class="anticon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav-right">
+                        <li>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                <i class="anticon anticon-search"></i>
+                            </a>
+                        </li>
+                        <li class="dropdown dropdown-animated scale-left">
+                            <a href="javascript:void(0);" data-toggle="dropdown">
+                                <i class="anticon anticon-bell notification-badge"></i>
+                            </a>
+                            <div class="dropdown-menu pop-notification">
+                                <div class="p-v-15 p-h-25 border-bottom d-flex justify-content-between align-items-center">
+                                    <p class="text-dark font-weight-semibold m-b-0">
+                                        <i class="anticon anticon-bell"></i>
+                                        <span class="m-l-10">Notification</span>
+                                    </p>
+                                    <a class="btn-sm btn-default btn" href="javascript:void(0);">
+                                        <small>View All</small>
+                                    </a>
+                                </div>
+                                <div class="relative">
+                                    <div class="overflow-y-auto relative scrollable" style="max-height: 300px">
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-blue avatar-icon">
+                                                    <i class="anticon anticon-mail"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">You received a new message</p>
+                                                    <p class="m-b-0"><small>8 min ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-cyan avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">New user registered</p>
+                                                    <p class="m-b-0"><small>7 hours ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-red avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">System Alert</p>
+                                                    <p class="m-b-0"><small>8 hours ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class="dropdown-item d-block p-15 ">
+                                            <div class="d-flex">
+                                                <div class="avatar avatar-gold avatar-icon">
+                                                    <i class="anticon anticon-user-add"></i>
+                                                </div>
+                                                <div class="m-l-15">
+                                                    <p class="m-b-0 text-dark">You have a new update</p>
+                                                    <p class="m-b-0"><small>2 days ago</small></p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown dropdown-animated scale-left">
+                            <div class="pointer" data-toggle="dropdown">
+                                <div class="avatar avatar-image  m-h-10 m-r-15">
+                                    <img src="assets/images/user-img.jpg"  alt="">
+                                </div>
+                            </div>
+                            <div class="p-b-15 p-t-20 dropdown-menu pop-profile">
+                                <div class="p-h-20 p-b-15 m-b-10 border-bottom">
+                                    <div class="d-flex m-r-50">
+                                        <div class="avatar avatar-lg avatar-image">
+                                            <img src="assets/images/user-img.jpg" alt="">
+                                        </div>
+                                        <div class="m-l-10">
+                                            <p class="m-b-0 text-dark font-weight-semibold">Marshall Nichols</p>
+                                            <p class="m-b-0 opacity-07">UI/UX Desinger</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-user"></i>
+                                            <span class="m-l-10">Edit Profile</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-lock"></i>
+                                            <span class="m-l-10">Account Setting</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <i class="anticon opacity-04 font-size-16 anticon-logout"></i>
+                                            <span class="m-l-10">Logout</span>
+                                        </div>
+                                        <i class="anticon font-size-10 anticon-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+            <!-- Header END -->
+
+                <div class="page-container">
+                    <!-- Content Wrapper START -->
+                    <div class="main-content">
+                        <div class="page-header">
+                            <h2 class="header-title">Amazon Orders <span>(0)</span></h2>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-row"> 
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Fulfilled By</label>
+                                            <select class="form-control">
+                                                <option>Amazon</option>
+                                                <option>Merchant</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Market Place</label>
+                                            <select class="form-control">
+                                                <option>Any</option>
+                                                <option>UK</option>
+                                                <option>USA</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Merchant</label>
+                                            <select class="form-control">
+                                                <option>Any</option>
+                                                <option>Walgreen</option>
+                                            </select>
+                                        </div>
+                                         <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold"><i class="fas fa-exclamation-circle mr-2"></i> Search Term</label>
+                                            <input type="text" class="form-control" placeholder="Keyword..." />
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Note</label>
+                                            <input type="text" class="form-control" placeholder="Note (match exactly)" />
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Start 'Purchase Date'</label>
+                                            <input type="text" class="form-control datepicker" placeholder=""/>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">End 'Purchase Date'</label>
+                                            <input type="text" class="form-control datepicker" placeholder="" />
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Order Status</label>
+                                            <select class="form-control">
+                                                <option>Any</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Sub-Order</label>
+                                            <select class="form-control">
+                                                <option>Any</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Sourced By</label>
+                                            <select class="form-control">
+                                                <option>David</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold">Ordered By</label>
+                                            <select class="form-control">
+                                                <option>David</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <label class="font-weight-semibold"><i class="fas fa-exclamation-circle mr-2"></i> Show</label>
+                                            <select class="form-control">
+                                                <option>10</option>
+                                                <option>20</option>
+                                                <option>30</option>
+                                                <option>40</option>
+                                                <option>50</option>
+                                                <option>100</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-row align-items-center justify-content-end">
+                                        <div class="dropdown mr-2">
+                                              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Export
+                                              </button>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#"><i class="fal fa-file-pdf red-icon mr-1"></i> Export PDF</a>
+                                                <a class="dropdown-item" href="#"><i class="far fa-file-excel green-icon mr-1"></i> Export Excel</a>
+                                              </div>
+                                            </div>
+                                        <button class="btn btn-primary mr-4">Search</button>
+                                        <a href="#"><i class="far fa-sync-alt mr-2"></i> Refresh</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">   
+                        <div class="col">
+                            <div class="card top-list">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center text-center">
+                                        <div>
+                                            <p class="m-b-0">Orders</p>
+                                            <h2 class="m-b-0">
+                                                <span>1</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card top-list">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center text-center">
+                                        <div>
+                                            <p class="m-b-0">Gross Sales</p>
+                                            <h2 class="m-b-0">
+                                                <span>$ 0</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card top-list">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center text-center">
+                                        <div>
+                                            <p class="m-b-0">Cogs</p>
+                                            <h2 class="m-b-0">
+                                                <span>$ 0</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card top-list">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center text-center">
+                                        <div>
+                                            <p class="m-b-0">Amazon fees</p>
+                                            <h2 class="m-b-0">
+                                                <span>$ 0</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card top-list">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center text-center">
+                                        <div>
+                                            <p class="m-b-0">Total profit</p>
+                                            <h2 class="m-b-0">
+                                                <span>$ 0</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card top-list">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center text-center">
+                                        <div>
+                                            <p class="m-b-0">ROI</p>
+                                            <h2 class="m-b-0">
+                                                <span>0.00 %</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card top-list">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center align-items-center text-center">
+                                        <div>
+                                            <p class="m-b-0">Margin</p>
+                                            <h2 class="m-b-0">
+                                                <span>0.00 %</span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                        <div class="card">
+                            <div class="card-body custom-data-table">
+                                <table id="data-table" class="table table-responsive">
+                                    <thead>
+                                        <tr>
+                                            <th>Date Listed</th>
+                                            <th>ASIN Number</th>
+                                            <th>Order ID</th>
+                                            <th>Supplier Order ID</th>
+                                            <th>Note</th>
+                                            <th>AMAZON TITLE</th>
+                                            <th>Purchase Date</th>
+                                            <th>SKU</th>
+                                            <th>BUYER</th>
+                                            <th>SOURCED BY</th>
+                                            <th>ORDERED BY</th>
+                                            <th>SHIPMENT TRACKING #</th>
+                                            <th>SHIPMENT TRACKING STATUS</th>
+                                            <th>RETURN TRACKING #</th>
+                                            <th>RETURN TRACKING STATUS</th>
+                                            <th>BUYER PAID</th>
+                                            <th>AMAZON FEE</th>
+                                            <th>PURCHASE COST</th>
+                                            <th>TOTAL PROFIT</th>
+                                            <th>NET ROI</th>
+                                            <th>STATUS</th>
+                                            <th>LATE SHIPMENT</th>
+                                            <th>ACTIONS</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="white-space">N/A</td>
+                                            <td class="white-space">B08C2SRL8P</td>
+                                            <td class="white-space">112-3163965-5123401</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="white-space"><div class="d-flex align-items-center "><i class="fas fa-envelope mr-2"></i>   <p>VECELO Modern Versatile Nightstands X-De...</p></div> </td>
+                                            <td>1/4/2021</td>
+                                            <td class="white-space">keepa.week49.may.24 </td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space">$ 163.78</td>
+                                            <td class="white-space">$ 0.00</td>
+                                            <td class="white-space">$ 0.00</td>
+                                            <td class="white-space">$ 0.00</td>
+                                            <td class="white-space">0.00 %</td>
+                                            <td class="white-space">Pending</td>
+                                            <td>Shipment is late in 25 days 2:19 hours</td>
+                                            <td class="white-space"><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".order-modal">UPDATE ORDER</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="white-space">N/A</td>
+                                            <td class="white-space">B08C2SRL8P</td>
+                                            <td class="white-space">112-3163965-5123401</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td class="white-space"><div class="d-flex align-items-center "><i class="fas fa-envelope mr-2"></i><p>VECELO Modern Versatile Nightstands X-De...</p></div> </td>
+                                            <td>1/4/2021</td>
+                                            <td class="white-space">keepa.week49.may.24 </td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space"></td>
+                                            <td class="white-space">$ 163.78</td>
+                                            <td class="white-space">$ 0.00</td>
+                                            <td class="white-space">$ 0.00</td>
+                                            <td class="white-space">$ 0.00</td>
+                                            <td class="white-space">0.00 %</td>
+                                            <td class="white-space">Pending</td>
+                                            <td>Shipment is late in 25 days 2:19 hours</td>
+                                            <td class="white-space"><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".order-modal">UPDATE ORDER</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="footer">
+                        <div class="footer-content">
+                            <p class="m-b-0">Copyright © 2019 Sole Solutions. All rights reserved.</p>
+                            <span>
+                                <a href="" class="text-gray m-r-15">Term &amp; Conditions</a>
+                                <a href="" class="text-gray">Privacy &amp; Policy</a>
+                            </span>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <!-- Search Start-->
+        <div class="modal modal-left fade search" id="search-drawer">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-between align-items-center">
+                        <h5 class="modal-title">Search</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <i class="anticon anticon-close"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body scrollable">
+                        <div class="input-affix">
+                            <i class="prefix-icon anticon anticon-search"></i>
+                            <input type="text" class="form-control" placeholder="Search" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade order-modal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title h4">Update Amazon Order</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <i class="anticon anticon-close"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="page-link-header pt-0 p-b-15">
+                            <p class="items-block"> 
+                                <span>Order</span>
+                            </p>
+                        </div>
+                        <form>
+                            <h5 class="modal-title h6 p-b-15">Order Update</h5>
+                            <div class="form-row"> 
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Purchase Cost</label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Supplier Order ID</label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                                 <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Last 4 digits of CC used</label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                            </div>
+                            <h5 class="modal-title h6 p-b-15">SHIPMENT TRACKING</h5>
+                            <div class="form-row"> 
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Shipment Tracking # <i class="fas fa-exclamation-circle mr-2"></i></label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Shipment Carrier</label>
+                                    <select class="form-control">
+                                        <option selected="selected">Select Carrier</option>
+                                        <option>UPS</option>
+                                        <option>USPS</option>
+                                        <option>Fedex</option>
+                                        <option>OnTrac</option>
+                                        <option>Lasership</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Return Tracking # <i class="fas fa-exclamation-circle mr-2"></i></label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Return Carrier</label>
+                                    <select class="form-control">
+                                        <option selected="selected">Select Carrier</option>
+                                        <option>UPS</option>
+                                        <option>USPS</option>
+                                        <option>Fedex</option>
+                                        <option>OnTrac</option>
+                                        <option>Lasership</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <h5 class="modal-title h6 p-b-15">REFUND UPDATE</h5>
+                            <div class="form-row"> 
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">RMA #</label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                               
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Buyer Refund</label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Supplier Refunded</label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                               
+                                <div class="form-group col-md-4">
+                                    <label class="font-weight-semibold">Amazon Fee Kept</label>
+                                    <input type="text" class="form-control" placeholder=""/>
+                                </div>
+                            </div>
+                            <h5 class="modal-title h6 p-b-15">STATUS UPDATE</h5>
+                            <div class="form-row"> 
+                                <div class="form-group col-md-6">
+                                    <label class="font-weight-semibold">Status</label>
+                                    <select class="form-control">
+                                        <option value="">Any</option>
+                                        <option>Pending</option>
+                                        <option>Ordered</option>
+                                        <option>OOS</option>
+                                        <option>Cancelled</option>
+                                        <option>Shipped</option>
+                                        <option>State Restriction</option>
+                                        <option>Return Requested</option>
+                                        <option>Refund Completed</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label class="font-weight-semibold">Sub-Order</label>
+                                    <select class="form-control">
+                                        <option> Any</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label class="font-weight-semibold">Note</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
+                            </div>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End-->
+
+        <!--  add product modal start -->
+     <div class="modal fade add-product-modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title h4">Upload CSV</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <i class="anticon anticon-close"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                     <input type="file" name="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> 
+<!--  add product modal end --> 
+
+        <!-- Core Vendors JS -->
+        <script src="assets/js/vendors.min.js"></script>
+
+        <!-- page js -->
+        <script src="assets/js/Chart.min.js"></script>
+        <script src="assets/js/dashboard-default.js"></script>
+        <script src="assets/js/bootstrap-datepicker.js"></script>
+        <!-- <script src="assets/js/dashboard-e-commerce.js"></script> -->
+
+        <!-- Core JS -->
+        <script src="assets/js/app.min.js"></script>
+
+        <script type="text/javascript">
+            $(".datepicker").datepicker({ 
+        autoclose: true, 
+        todayHighlight: true
+  }).datepicker('update', new Date());
+        </script>
+    </body>
+</html>

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Sole Solution:: View Product</title>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/images/logo/favicon.png" />
+        <!-- style css -->
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <!-- Core css -->
+        <link href="assets/css/custom.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    </head>
+
+    <body>
+        <div class="app">
+            <div class="layout"><!-- Header START -->
+                <div class="header">
+                    <div class="logo logo-dark">
+                        <a href="index.html">
+                            <img src="assets/images/logo/logo.png" alt="Logo"  class="logo-inner">
+                            <img class="logo-fold" src="assets/images/logo/logo-fold.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="side-nav">
+                    <div class="side-nav-inner">
+                        <ul class="side-nav-menu">
+                            <li class="nav-item desktop-toggle">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="far fa-envelope"></i>
+                                    </span>
+                                    <span class="title">Mailbox</span>
+                                    
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="anticon anticon-dashboard"></i>
+                                    </span>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="fas fa-gem"></i>
+                                    </span>
+                                    <span class="title">Inventory</span>
+                                    <span class="arrow">
+                                        <i class="arrow-icon"></i>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#" data-toggle="modal" data-target=".add-product-modal">Add Product</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-toggle="modal" data-target=".add-product-modal">View Products</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="fab fa-first-order"></i>
+                                    </span>
+                                    <span class="title">Orders</span>
+                                    <span class="arrow">
+                                        <i class="arrow-icon"></i>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Amazon Orders</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="fas fa-cog"></i>
+                                    </span>
+                                    <span class="title">Account Settings</span>
+                                    <span class="arrow">
+                                        <i class="arrow-icon"></i>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#"> Integrations </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle" href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="far fa-store"></i>
+                                    </span>
+                                    <span class="title">Store</span>
+                                    <span class="arrow">
+                                        <i class="arrow-icon"></i>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item dropdown">
+                                        <a class="dropdown-toggle" href="javascript:void(0);">
+                                        <span class="title">PsykeKandi</span>
+                                        <span class="arrow">
+                                            <i class="far fa-chevron-left"></i>
+                                        </span>
+                                    </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">Roel</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="dropdown-toggle" href="javascript:void(0);">
+                                        <span class="title">Tatalo Wholesale</span>
+                                        <span class="arrow">
+                                            <i class="far fa-chevron-left"></i>
+                                        </span>
+                                    </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">Amber</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                     <li class="nav-item dropdown">
+                                        <a class="dropdown-toggle" href="javascript:void(0);">
+                                        <span class="title">SunshineBiz</span>
+                                        <span class="arrow">
+                                            <i class="far fa-chevron-left"></i>
+                                        </span>
+                                    </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">Christian</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                     <li class="nav-item dropdown">
+                                        <a class="dropdown-toggle" href="javascript:void(0);">
+                                        <span class="title">Baullah</span>
+                                        <span class="arrow">
+                                            <i class="far fa-chevron-left"></i>
+                                        </span>
+                                    </a>
+                                        <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="#">Ahye</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="side-nav-mainbox">
+                    <div class="side-nav-inner">
+                        <ul class="side-nav-menu">
+                            <li class="nav-item desktop-toggle">
+                                <a href="mailbox.html">
+                                    <span class="icon-holder">
+                                        <i class="far fa-home"></i>
+                                    </span>
+                                    <span class="title">Home</span>
+                                    
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                    <span class="title">My Ticket</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="fal fa-at"></i>
+                                        <p>1</p>
+                                    </span>
+                                    <span class="title">Mentioned</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="far fa-envelope"></i>
+                                        <p>205</p>
+                                    </span>
+                                    <span class="title">New Tickets</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="fas fa-list-ul"></i>
+                                        <p>205</p>
+    
+                                    </span>
+                                    <span class="title">To Do</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="anticon anticon-dashboard"></i>
+                                    </span>
+                                    <span class="title">Waiting</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="far fa-alarm-snooze"></i>
+                                    </span>
+                                    <span class="title">Snoozed</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="fal fa-check-square"></i>
+                                    </span>
+                                    <span class="title">Resolved</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                        <i class="far fa-history"></i>
+                                    </span>
+                                    <span class="title">Recently Update</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:void(0);">
+                                    <span class="icon-holder">
+                                       <i class="fas fa-pencil-alt"></i>
+                                    </span>
+                                    <span class="title">Create ticket</span>
+                                </a>
+                            </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <div class="nav-wrap">
+                        <ul class="nav-left">
+                            <!-- <li class="desktop-toggle">
+                                <a href="javascript:void(0);">
+                                    <i class="anticon"></i>
+                                </a>
+                            </li> -->
+                            <li class="mobile-toggle">
+                                <a href="javascript:void(0);">
+                                    <i class="anticon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li>
+                                <a href="javascript:void(0);" data-toggle="modal" data-target="#search-drawer">
+                                    <i class="anticon anticon-search"></i>
+                                </a>
+                            </li>
+                            <li class="dropdown dropdown-animated scale-left">
+                                <a href="javascript:void(0);" data-toggle="dropdown">
+                                    <i class="anticon anticon-bell notification-badge"></i>
+                                </a>
+                                <div class="dropdown-menu pop-notification">
+                                    <div class="p-v-15 p-h-25 border-bottom d-flex justify-content-between align-items-center">
+                                        <p class="text-dark font-weight-semibold m-b-0">
+                                            <i class="anticon anticon-bell"></i>
+                                            <span class="m-l-10">Notification</span>
+                                        </p>
+                                        <a class="btn-sm btn-default btn" href="javascript:void(0);">
+                                            <small>View All</small>
+                                        </a>
+                                    </div>
+                                    <div class="relative">
+                                        <div class="overflow-y-auto relative scrollable" style="max-height: 300px">
+                                            <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                                <div class="d-flex">
+                                                    <div class="avatar avatar-blue avatar-icon">
+                                                        <i class="anticon anticon-mail"></i>
+                                                    </div>
+                                                    <div class="m-l-15">
+                                                        <p class="m-b-0 text-dark">You received a new message</p>
+                                                        <p class="m-b-0"><small>8 min ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                                <div class="d-flex">
+                                                    <div class="avatar avatar-cyan avatar-icon">
+                                                        <i class="anticon anticon-user-add"></i>
+                                                    </div>
+                                                    <div class="m-l-15">
+                                                        <p class="m-b-0 text-dark">New user registered</p>
+                                                        <p class="m-b-0"><small>7 hours ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0);" class="dropdown-item d-block p-15 border-bottom">
+                                                <div class="d-flex">
+                                                    <div class="avatar avatar-red avatar-icon">
+                                                        <i class="anticon anticon-user-add"></i>
+                                                    </div>
+                                                    <div class="m-l-15">
+                                                        <p class="m-b-0 text-dark">System Alert</p>
+                                                        <p class="m-b-0"><small>8 hours ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="javascript:void(0);" class="dropdown-item d-block p-15 ">
+                                                <div class="d-flex">
+                                                    <div class="avatar avatar-gold avatar-icon">
+                                                        <i class="anticon anticon-user-add"></i>
+                                                    </div>
+                                                    <div class="m-l-15">
+                                                        <p class="m-b-0 text-dark">You have a new update</p>
+                                                        <p class="m-b-0"><small>2 days ago</small></p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown dropdown-animated scale-left">
+                                <div class="pointer" data-toggle="dropdown">
+                                    <div class="avatar avatar-image  m-h-10 m-r-15">
+                                        <img src="assets/images/user-img.jpg"  alt="">
+                                    </div>
+                                </div>
+                                <div class="p-b-15 p-t-20 dropdown-menu pop-profile">
+                                    <div class="p-h-20 p-b-15 m-b-10 border-bottom">
+                                        <div class="d-flex m-r-50">
+                                            <div class="avatar avatar-lg avatar-image">
+                                                <img src="assets/images/user-img.jpg" alt="">
+                                            </div>
+                                            <div class="m-l-10">
+                                                <p class="m-b-0 text-dark font-weight-semibold">Marshall Nichols</p>
+                                                <p class="m-b-0 opacity-07">UI/UX Desinger</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <i class="anticon opacity-04 font-size-16 anticon-user"></i>
+                                                <span class="m-l-10">Edit Profile</span>
+                                            </div>
+                                            <i class="anticon font-size-10 anticon-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <i class="anticon opacity-04 font-size-16 anticon-lock"></i>
+                                                <span class="m-l-10">Account Setting</span>
+                                            </div>
+                                            <i class="anticon font-size-10 anticon-right"></i>
+                                        </div>
+                                    </a>
+                                    <a href="javascript:void(0);" class="dropdown-item d-block p-h-15 p-v-10">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <i class="anticon opacity-04 font-size-16 anticon-logout"></i>
+                                                <span class="m-l-10">Logout</span>
+                                            </div>
+                                            <i class="anticon font-size-10 anticon-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
+                <!-- Header END -->
+
+                <div class="page-container">
+                    <!-- Content Wrapper START -->
+                    <div class="main-content">
+                        <div class="page-header">
+                            <h2 class="header-title">View Products</h2>
+                            
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                               <div class="iframe-block">
+                                   <iframe src="
+                                   https://sellercentral.amazon.com/inventory/ref=xx_invmgr_dnav_xx?tbla_myitable=sort:%7B%22sortOrder%22%3A%22DESCENDING%22%2C%22sortedColumnId%22%3A%22date%22%7D;search:;pagination:1"></iframe>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="footer">
+                        <div class="footer-content">
+                            <p class="m-b-0">Copyright © 2019 Sole Solutions. All rights reserved.</p>
+                            <span>
+                                <a href="" class="text-gray m-r-15">Term &amp; Conditions</a>
+                                <a href="" class="text-gray">Privacy &amp; Policy</a>
+                            </span>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <!-- Search Start-->
+        <div class="modal modal-left fade search" id="search-drawer">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-between align-items-center">
+                        <h5 class="modal-title">Search</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <i class="anticon anticon-close"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body scrollable">
+                        <div class="input-affix">
+                            <i class="prefix-icon anticon anticon-search"></i>
+                            <input type="text" class="form-control" placeholder="Search" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Search End-->
+
+        <!-- Core Vendors JS -->
+        <script src="assets/js/vendors.min.js"></script>
+
+        <!-- page js -->
+        <script src="assets/js/Chart.min.js"></script>
+        <script src="assets/js/dashboard-default.js"></script>
+        <!-- <script src="assets/js/dashboard-e-commerce.js"></script> -->
+
+        <!-- Core JS -->
+        <script src="assets/js/app.min.js"></script>
+    </body>
+</html>
